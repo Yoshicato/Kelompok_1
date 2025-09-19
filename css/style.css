@@ -182,13 +182,15 @@ ul {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-top: 10px;
 }
+/*
 .line {
-  margin-top: -5px;
+  margin: -5px auto 12px auto;
   width: 96px;
   height: 10px;
   background-color: var(--secondary);
-  margin-left: 12px;
 }
+*/
+
 .foodApp img {
   margin-top: 50px;
   max-height: 572px;
@@ -539,15 +541,15 @@ ul {
   }
 }
 .profile-photo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%; /* Membuat foto bulat */
   object-fit: cover;
-  margin-bottom: 10px;
+  border: 3px solid white; /* Opsional: tambahkan border putih */
 }
 
-.member {
-  display: inline-block;
-  margin: 20px;
-  text-align: center;
+.member p {
+  color: white; /* Ubah warna font menjadi putih */
+  font-size: 16px;
+  margin-top: 10px;
 }
