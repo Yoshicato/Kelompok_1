@@ -549,7 +549,43 @@ ul {
 }
 
 .member p {
-  color: white; /* Ubah warna font menjadi putih */
+  color: rgb(0, 0, 0); /* Ubah warna font menjadi putih */
   font-size: 16px;
   margin-top: 10px;
+}
+.h5 {
+  font-family: var(--fontDefaults);
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255); /* Changed color here */
+  margin: 10px 0;
+}
+.member .nav-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 16px;
+  background-color: var(--secondary);
+  color: var(--primary);
+  font-family: var(--fontDefaults);
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.member .nav-link:hover {
+  background-color: #e29e4f; /* sedikit lebih gelap dari secondary */
+  color: #ffffff;
+}
+.member {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.profile-img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
 }
