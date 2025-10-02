@@ -583,9 +583,9 @@ ul {
   margin-bottom: 30px;
 }
 .profile-img {
-  width: 12rem;
-  height: 12rem;
-  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 0; /* Kotak */
   object-fit: cover;
   border: 3px solid white;
 }
